@@ -17,7 +17,10 @@
     <repository>
       <id>dynamodb-local-oregon</id>
       <name>DynamoDB Local Release Repository</name>
-      <url>https://s3-us-west-2.amazonaws.com/dynamodb-local/release</url>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>DynamoDBLocal</artifactId>
+      <version>1.15.0</version>
+      <url>https://mvnrepository.com/artifact/com.amazonaws/DynamoDBLocal</url>
     </repository>
   </repositories>
 
